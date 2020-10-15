@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    class Honor : I_Phone
+    class Vibration : Sound_Phone
     {
-        public void Charging()
+        public void Sound()
         {
-            Console.WriteLine("Для honor необходим кабель micro-USB");
+            Console.WriteLine("Режим с вибрацией");
         }
     }
 }

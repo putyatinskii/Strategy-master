@@ -8,16 +8,18 @@ namespace Strategy
 {
     class User
     {
-        I_Phone phone;
+        string model;
+        Sound_Phone phone;
 
-        public User(I_Phone phone)
+        public User(string model, Sound_Phone phone)
         {
+            this.model = model;
             this.phone = phone;
         }
 
-        public void Charging_Strategy()
+        public void Sound_Strategy()
         {
-            phone.Charging();
+            phone.Sound();
         }
     }
 }

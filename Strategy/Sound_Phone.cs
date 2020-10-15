@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    interface I_Phone
+    interface Sound_Phone
     {
-        void Charging();
+        void Sound();
     }
 }

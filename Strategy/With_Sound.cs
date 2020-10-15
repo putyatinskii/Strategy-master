@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    class Xiaomi : I_Phone
+    class With_Sound : Sound_Phone
     {
-        public void Charging()
+        public void Sound()
         {
-            Console.WriteLine("Для xiaomi необходим кабель USB Type-C");
+            Console.WriteLine("Режим со звуком");
         }
     }
 }

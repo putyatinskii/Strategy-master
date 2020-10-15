@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Honor.cs" />
-    <Compile Include="Iphone.cs" />
-    <Compile Include="I_Phone.cs" />
+    <Compile Include="Vibration.cs" />
+    <Compile Include="With_Sound.cs" />
+    <Compile Include="Sound_Phone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
-    <Compile Include="Xiaomi.cs" />
+    <Compile Include="No_Sound.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    class Iphone : I_Phone
+    class No_Sound : Sound_Phone
     {
-        public void Charging()
+
+        public void Sound()
         {
-            Console.WriteLine("Для iphone необходим кабель Lighting");
+            Console.WriteLine("Беззвучный режим");
         }
     }
 }
